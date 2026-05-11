@@ -18,4 +18,4 @@ class ProductForm(forms.ModelForm):
         fields = ['name', 'description', 'price', 'stock', 'categories', 'image']
         widgets = {
             'categories': forms.CheckboxSelectMultiple()
-        } 
+        }   
